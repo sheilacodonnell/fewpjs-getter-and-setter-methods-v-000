@@ -4,6 +4,6 @@ class Circle {
   }
   
   get diameter() {
-    return this.sideLength * this.sideLength;
+    return this.radius * 2;
   }
 }
