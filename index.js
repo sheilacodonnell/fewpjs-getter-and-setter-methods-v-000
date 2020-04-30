@@ -9,6 +9,6 @@ class Circle {
 }
 
   get circumference() {
-    return this.radius * 2;
+    return Math.PI * circle.diameter;
   }
 }
